@@ -10,4 +10,5 @@ let
 in
 
 {
+  chromium = callFortifyPackage ./chromium.nix;
 }
