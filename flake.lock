@@ -6,11 +6,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1735481656,
-        "narHash": "sha256-vxSeDmEDAKuco+6yl/9n+Lbv4vaJDkZSxW5JIDOWHo8=",
+        "lastModified": 1735493104,
+        "narHash": "sha256-xxoxbEF4GIrgua0yV0YlQVtwDGmb8nVrSPG05kfo7TA=",
         "ref": "develop",
-        "rev": "fb8abf63db8367efce11db6f2ccf4b7775553e0f",
-        "revCount": 362,
+        "rev": "22a4b996742a99515c2cdf50cbd92d86a8370c4f",
+        "revCount": 367,
         "type": "git",
         "url": "https://git.gensokyo.uk/security/fortify"
       },
