@@ -1,0 +1,69 @@
+{
+  "nodes": {
+    "fortify": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1735453300,
+        "narHash": "sha256-codrnnfE71sd8PBWL7ByteNRF5otkBoDGsJff+80uhU=",
+        "ref": "develop",
+        "rev": "c795293f3690ca6d91e898b72edd0a20b9708450",
+        "revCount": 356,
+        "type": "git",
+        "url": "https://git.gensokyo.uk/security/fortify"
+      },
+      "original": {
+        "ref": "develop",
+        "type": "git",
+        "url": "https://git.gensokyo.uk/security/fortify"
+      }
+    },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "fortify",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1733951536,
+        "narHash": "sha256-Zb5ZCa7Xj+0gy5XVXINTSr71fCfAv+IKtmIXNrykT54=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "1318c3f3b068cdcea922fa7c1a0a1f0c96c22f5f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-24.11",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1734298236,
+        "narHash": "sha256-aWhhqY44xBjMoO9r5fyPp5u8tqUNWRZ/m/P+abMSs5c=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "eb919d9300b6a18f8583f58aef16db458fbd7bec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.11-small",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "fortify": "fortify"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
