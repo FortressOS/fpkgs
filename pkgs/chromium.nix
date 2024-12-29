@@ -53,6 +53,6 @@ buildPackage {
     export GOOGLE_API_KEY='AIzaSyBHDrl33hwRp4rMQY0ziRbj8K9LPA6vUCY'
     export GOOGLE_DEFAULT_CLIENT_ID='77185425430.apps.googleusercontent.com'
     export GOOGLE_DEFAULT_CLIENT_SECRET='OTJgUOQcT7lO7GsGZq2G4IlT'
-    exec chromium "$@"
+    exec /.fortify/nixGL/nixGL chromium "$@"
   '';
 }
