@@ -11,4 +11,5 @@ in
 
 {
   chromium = callFortifyPackage ./chromium.nix;
+  vesktop = callFortifyPackage ./vesktop.nix;
 }
