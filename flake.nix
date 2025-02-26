@@ -2,7 +2,7 @@
   description = "fortify application packages";
 
   inputs = {
-    fortify.url = "git+https://git.gensokyo.uk/security/fortify?ref=develop";
+    fortify.url = "git+https://git.gensokyo.uk/security/fortify?ref=fpkg";
   };
 
   outputs =
